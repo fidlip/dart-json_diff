@@ -3,6 +3,10 @@ version: 0.1.2
 author: Sam Rawlins <srawlins@google.com>
 description: Utilities for diffing two JSON objects
 homepage: https://github.com/google/dart-json_diff
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+  
 dependencies:
   collection: '>=1.0.0 <2.0.0'
   diff_match_patch: '>=0.2.1 <0.3.0'
